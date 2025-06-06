@@ -1,0 +1,37 @@
+header{
+    background-image: url(/img/banner-senati.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1300px;
+    height: 400px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+nav{
+    width: 600px;
+    margin: auto;
+}
+
+/* Quitar el símbolo en la lista */
+ul{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(251, 249, 249);
+    background-color: black;
+    padding: 15px;
+    display: block;
+    width: 150px;
+    text-align: center;
+}
+
+nav li{
+    float: left;
+}
+
+nav a:hover{
+    background-color: darkgrey;
+}
